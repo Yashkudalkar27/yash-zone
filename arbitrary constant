@@ -1,0 +1,14 @@
+#Arbitrary arguments
+def addition(*args):
+    x=len(args);
+    print("Length of args is:",x);
+    sum=0;
+    print("args is: ");
+    for i in range(0,x):
+                   sum=sum+args[i];
+                   print(args[i],end=" ");
+    print("Total sum is :",sum);
+
+#function call
+addition(10,12,14,16,17,15,11,45,10)
+
